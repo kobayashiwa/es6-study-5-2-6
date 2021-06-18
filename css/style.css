@@ -61,30 +61,31 @@ ul, li {
 	padding: 0 50px;
 	position: relative;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .head-logo {
 	position: absolute;
 	width: 69px;
 	height: 15px;
-	top: 52px;
+	top: 48px;
 	transition: all .2s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
