@@ -71,18 +71,12 @@ ul, li {
 
 
 
-.top-header.bisible {
-	height: 90px;
-	background: #fff;
-}
+
 .in {
 	width: 100%;
 	height: 100%;
 	padding: 0 40px;
 	position: relative;
-}
-.top-header.bisible .in {
-	padding: 0 90px;
 }
 .head-logo {
 	position: absolute;
@@ -90,13 +84,6 @@ ul, li {
 	height: 35px;
 	top: 52px;
 	transition: all .2s;
-}
-.top-header.bisible .head-logo {
-	top: 50%;
-	transform: translateY(-50%);
-}
-.top-header.bisible .top-logo {
-	display: none;
 }
 .head-logo img {
 	width: 100%;
@@ -123,10 +110,6 @@ nav ul li a {
 	color: #fff;
 	transition: all .5s;
 }
-.top-header.bisible nav ul li a {
-	color: #495057;
-	padding: 35px 0 0 0;
-}
 nav ul li a span {
 	display: block;
 	text-align: center;
@@ -142,9 +125,6 @@ nav ul li a span.ja {
 	display: none;
 }
 @media screen and (max-width: 1199px) {
-	.top-header.bisible .in {
-		padding: 0 40px;
-	}
 }
 @media screen and (max-width: 767px) {
 	.top-header {
@@ -186,12 +166,6 @@ nav ul li a span.ja {
 		background: #fff;
 		border-radius: 2px;
 		transition: .2s;
-	}
-	.toggle.bisible::before, .toggle.bisible::after, .toggle.bisible span {
-		background: #495057;
-	}
-	.toggle.bisible.active::before, .toggle.bisible.active::after, .toggle.bisible.active span {
-		background: #fff;
 	}
 	.toggle::before {
 		top: -3px;
