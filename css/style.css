@@ -55,6 +55,21 @@ ul, li {
 	height: 110px;
 	transition: all .2s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .top-header.bisible {
 	height: 90px;
 	background: #fff;
@@ -119,7 +134,10 @@ nav ul li a span.ja {
 	font-size: 10px;
 	font-weight: 300;
 }
-.toggle, .toggle-menu {
+.toggle {
+	display: block;
+}
+.toggle-menu {
 	display: none;
 }
 @media screen and (max-width: 1199px) {
@@ -139,7 +157,7 @@ nav ul li a span.ja {
 	.in nav {
 		display: none;
 	}
-	.toggle, .toggle span {
+	.toggle span {
 		display: inline-block;
 	}
 	.toggle {
