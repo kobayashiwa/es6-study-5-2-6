@@ -317,6 +317,11 @@ main {
 	height: 10vw;
 	background: hsl(214, 97%, 23%, 0.3);
 }
+.p-top__advantage {
+	width: 100%;
+	height: 70vw;
+	background: hsl(214, 97%, 23%, 0.4);
+}
 
 /** footer **/
 footer {
