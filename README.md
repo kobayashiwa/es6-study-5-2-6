@@ -44,27 +44,16 @@ class Bbb {
 ## コーディングトレーニング
 「UNIEL」のレイアウト構造をレスポンシブで写経する。
 
-
-
-
-ここから未着手▼
-
-
-
-
-
-
 #### サイト構造
 - header > logo - nav/toggle
-- main > section（top-mv） - section（top-about） - section（top-service） - section（top-recruit）
+- main > section（p-top__mv） - section（p-top__about） - section（p-top__category） - section（p-top__advantage） - section（p-top__contents） - section（p-top__value） - section（p-top__stayful）
 - footer
 
 #### ブレイクポイント
-- desktop（768px ↑）
-- tablet（---）
-- smartDevice（767px ↓）
+- desktop（801px ↑）
+- tablet（800px ↓）
+- smartDevice（600px ↓）
 
 ## チャレンジ
 - ハンバーガーメニューに画像やSVGを使わずcssで描画する
-- ヘッダーをスクロール開始でcssを切り替えて上部固定にする
 
