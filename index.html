@@ -15,11 +15,6 @@
         <header class="top-header">
             <div class="in">
                 <div class="head-logo top-logo"><img src="img/header-logo.png"></div>
-                <nav>
-                    <ul class="flex">
-                        <li><a href="#"><span>ABOUT</span><span class="ja">会社概要</span></a></li>
-                    </ul>
-                </nav>
             </div>
         </header>
 
@@ -105,20 +100,6 @@
         class Advertising {
             constructor(bissiness, vol) {
                 this.bissiness = bissiness;
-                this.vol = vol;
-            }
-            greet(){
-                console.log("広告ビジネス・メディア");
-            }
-            info(){
-                this.greet();
-                console.log(`日本の${this.bissiness}の最大の課題は何だと思いますか？ 「Advertising Week Asia2021」登壇者への一問一答【${this.vol}】`);
-            }
-        }
-        class Senden extends Advertising {
-            constructor(bissiness, vol, service) {
-                super(bissiness, vol);
-                this.service = service;
             }
         }
 
