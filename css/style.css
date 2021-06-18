@@ -53,7 +53,6 @@ ul, li {
 	left: 0;
 	width: 100%;
 	height: 82px;
-	background: #111;
 	transition: all .2s;
 }
 .in {
@@ -81,11 +80,16 @@ ul, li {
 
 .head-logo {
 	position: absolute;
-	width: 132px;
-	height: 35px;
+	width: 69px;
+	height: 15px;
 	top: 52px;
 	transition: all .2s;
 }
+
+
+
+
+
 .head-logo img {
 	width: 100%;
 }
