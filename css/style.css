@@ -71,13 +71,9 @@ ul, li {
 .head-logo img {
 	width: 100%;
 }
-
-
-
-
-
-
-
+.toggle span {
+	display: inline-block;
+}
 
 
 
@@ -105,9 +101,15 @@ ul, li {
 		left: 24px;
 		transform: translateY(-50%);
 	}
-	.toggle span {
-		display: inline-block;
-	}
+	
+
+
+
+
+
+
+
+	
 	.toggle {
 		position: fixed;
 		top: 33px;
