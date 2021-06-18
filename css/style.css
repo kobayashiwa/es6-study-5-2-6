@@ -56,28 +56,29 @@ ul, li {
 	background: #111;
 	transition: all .2s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .in {
 	width: 100%;
 	height: 100%;
-	padding: 0 40px;
+	padding: 0 50px;
 	position: relative;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .head-logo {
 	position: absolute;
 	width: 132px;
