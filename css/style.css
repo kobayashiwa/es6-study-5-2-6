@@ -312,6 +312,11 @@ main {
 	height: 120vw;
 	background: hsl(214, 97%, 23%, 0.2);
 }
+.p-top__category {
+	width: 100%;
+	height: 10vw;
+	background: hsl(214, 97%, 23%, 0.3);
+}
 
 /** footer **/
 footer {
