@@ -301,9 +301,9 @@ main {
 	width: 100%;
 	background: hsl(214, 97%, 23%, 0.5);
 }
-.top-mv {
+.p-top__mv {
 	width: 100%;
-	height: 150vw;
+	height: 50vw;
 	padding: 120px 0 0 0;
 	background: hsl(214, 97%, 23%, 0.1);
 }
