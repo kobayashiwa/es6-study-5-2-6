@@ -91,40 +91,6 @@ ul, li {
 
 
 
-
-
-
-
-nav {
-	height: 100%;
-	transition: all .5s;
-}
-nav ul {
-	justify-content: flex-end;
-	align-items: center;
-	height: 100%;
-}
-nav ul li {
-	height: 100%;
-	padding-left: 30px;
-}
-nav ul li a {
-	display: inline-block;
-	font-size: 14px;
-	font-weight: 600;
-	padding: 52px 0 0 0;
-	height: 100%;
-	color: #fff;
-	transition: all .5s;
-}
-nav ul li a span {
-	display: block;
-	text-align: center;
-}
-nav ul li a span.ja {
-	font-size: 10px;
-	font-weight: 300;
-}
 .toggle {
 	display: block;
 }
@@ -141,9 +107,6 @@ nav ul li a span.ja {
 		top: 50%;
 		left: 24px;
 		transform: translateY(-50%);
-	}
-	.in nav {
-		display: none;
 	}
 	.toggle span {
 		display: inline-block;
@@ -265,11 +228,6 @@ nav ul li a span.ja {
 	.toggle-menu nav ul li a span {
 		text-align: left;
 		font-size: 32px;
-	}
-	nav ul li a span.ja {
-		padding-top: 8px;
-		font-size: 16px;
-		font-weight: 300;
 	}
 	.toggle-menu nav ul li a {
 		color: #fff;
