@@ -82,12 +82,6 @@ ul, li {
 .top-header.bisible .top-logo {
 	display: none;
 }
-.top-header .scroll-logo {
-	display: none;
-}
-.top-header.bisible .scroll-logo {
-	display: block;
-}
 .head-logo img {
 	width: 100%;
 }
