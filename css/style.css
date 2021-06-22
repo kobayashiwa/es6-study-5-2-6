@@ -131,7 +131,11 @@ ul, li {
 	bottom: 0;
 	transform-origin: 100% 0;
 	transition-delay: .5s;
-  }
+}
+.toggle.active::before {
+	transform: rotate(45deg) scaleX(1);
+	transition-delay: .3s;
+}
 
 
 
@@ -157,9 +161,6 @@ ul, li {
 
 
  
-
-
-¥
 	.toggle-menu nav {
 		display: block;
 		padding: 90px 0;
