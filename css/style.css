@@ -71,8 +71,22 @@ ul, li {
 .head-logo img {
 	width: 100%;
 }
-.toggle span {
+.toggle .toggle span {
 	display: inline-block;
+}
+
+
+.toggle {
+	position: fixed;
+	top: 33px;
+	right: 24px;
+	width: 46px;
+	height: 27px;
+	z-index: 3;
+	background: none;
+	border: none;
+	appearance: none;
+	cursor: pointer;
 }
 
 
@@ -93,9 +107,6 @@ ul, li {
 @media screen and (max-width: 1199px) {
 }
 @media screen and (max-width: 767px) {
-	.top-header {
-		height: 87px;
-	}
 	.head-logo {
 		top: 50%;
 		left: 24px;
@@ -110,18 +121,7 @@ ul, li {
 
 
 	
-	.toggle {
-		position: fixed;
-		top: 33px;
-		right: 24px;
-		width: 46px;
-		height: 27px;
-		z-index: 3;
-		background: none;
-		border: none;
-		appearance: none;
-		cursor: pointer;
-	}
+	
 	.toggle:focus:not(:focus-visible) {
 		outline: none;
 	}
