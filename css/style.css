@@ -76,7 +76,7 @@ ul, li {
 }
 .toggle {
 	position: fixed;
-	top: 33px;
+	top: 52px;
 	right: 50px;
 	width: 50px;
 	height: 44px;
@@ -85,10 +85,13 @@ ul, li {
 	border: none;
 	appearance: none;
 	cursor: pointer;
-  }
-  .toggle:focus:not(:focus-visible) {
+}
+.toggle:focus:not(:focus-visible) {
 	outline: none;
-  }
+}
+.menu-trigger::before, .menu-trigger::after {
+  content: '';
+}
 
 
 
@@ -118,9 +121,6 @@ ul, li {
 
 
 
-	.toggle::before, .toggle::after {
-		content: '';
-	}
 	.toggle::before, .toggle::after, .toggle span {
 		position: absolute;
 		width: 100%;
