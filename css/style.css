@@ -136,6 +136,10 @@ ul, li {
 	transform: rotate(45deg) scaleX(1);
 	transition-delay: .3s;
 }
+.toggle.active::after {
+	transform: rotate(-45deg) scaleX(1);
+	transition-delay: .5s;
+}
 
 
 
