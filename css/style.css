@@ -120,6 +120,12 @@ ul, li {
 	transform-origin: 0 0;
 	transition-delay: .5s;
 }
+.toggle span:nth-of-type(2) {
+	top: 20px;
+	left: 0;
+	transform-origin: 50% 50%;
+	transition-delay: .5s;
+}
 
 
 
@@ -137,7 +143,7 @@ ul, li {
 .toggle-menu {
 	display: none;
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 800px) {
 }
 @media screen and (max-width: 767px) {
 
