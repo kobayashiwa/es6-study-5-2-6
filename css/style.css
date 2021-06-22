@@ -74,20 +74,19 @@ ul, li {
 .toggle .toggle span {
 	display: inline-block;
 }
-
-
 .toggle {
 	position: fixed;
 	top: 33px;
 	right: 24px;
-	width: 46px;
-	height: 27px;
+	width: 50px;
+	height: 44px;
 	z-index: 3;
 	background: none;
 	border: none;
 	appearance: none;
 	cursor: pointer;
-}
+  }
+
 
 
 
@@ -107,11 +106,7 @@ ul, li {
 @media screen and (max-width: 1199px) {
 }
 @media screen and (max-width: 767px) {
-	.head-logo {
-		top: 50%;
-		left: 24px;
-		transform: translateY(-50%);
-	}
+
 	
 
 
