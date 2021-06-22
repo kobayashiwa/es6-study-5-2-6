@@ -140,6 +140,10 @@ ul, li {
 	transform: rotate(-45deg) scaleX(1);
 	transition-delay: .5s;
 }
+.toggle.active span:nth-of-type(-n+3) {
+	transform: scaleX(0);
+	transition-delay: 0s;
+}
 
 
 
