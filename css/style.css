@@ -121,7 +121,7 @@ ul, li {
 	transition-delay: .5s;
 }
 .toggle span:nth-of-type(2) {
-	top: 20px;
+	top: 5px;
 	left: 0;
 	transform-origin: 50% 50%;
 	transition-delay: .5s;
