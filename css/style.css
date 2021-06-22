@@ -126,6 +126,12 @@ ul, li {
 	transform-origin: 50% 50%;
 	transition-delay: .5s;
 }
+.toggle span:nth-of-type(3) {
+	right: 0;
+	bottom: 0;
+	transform-origin: 100% 0;
+	transition-delay: .5s;
+  }
 
 
 
@@ -145,7 +151,7 @@ ul, li {
 }
 @media screen and (max-width: 800px) {
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
 
 	
 
