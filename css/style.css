@@ -96,7 +96,7 @@ ul, li {
   position: absolute;
   width: 100%;
   height: 1px;
-  background: #fff;
+  background: #000;
   transition: .2s;
 }
 .toggle::before {
