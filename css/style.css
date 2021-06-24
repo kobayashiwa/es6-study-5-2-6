@@ -101,15 +101,15 @@ ul, li {
   transition: .2s;
 }
 .toggle::before {
-	top: 3px;
-	left: 8px;
+	top: 1px;
+	left: 2px;
 	transform-origin: 0 0;
 	transform: rotate(45deg) scaleX(0);
 	transition-delay: 0s;
 }
 .toggle::after {
-	top: 3px;
-	right: 9px;
+	top: 1px;
+	right: 2px;
 	transform-origin: 100% 0;
 	transform: rotate(-45deg) scaleX(0);
 	transition-delay: .2s;
@@ -144,20 +144,6 @@ ul, li {
 	transform: scaleX(0);
 	transition-delay: 0s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .toggle-menu {
 	display: none;
 }
