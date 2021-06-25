@@ -71,6 +71,9 @@ ul, li {
 .head-logo img {
 	width: 100%;
 }
+.sns {
+	position: fixed;
+}
 .toggle .toggle span {
 	display: inline-block;
 }
