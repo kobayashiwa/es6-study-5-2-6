@@ -88,6 +88,7 @@ ul, li {
 }
 .toggle p {
 	color: #000;
+	font-size: 13px;
 }
 .toggle:focus:not(:focus-visible) {
 	outline: none;
