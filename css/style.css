@@ -99,7 +99,9 @@ ul, li {
 	display: block;
 	position: absolute;
 	width: 1px;
-	height: 10px;
+	height: 11px;
+	top: 6px;
+	right: 56px;
 	background-color: #000;
 }
 .toggle:focus:not(:focus-visible) {
