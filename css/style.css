@@ -94,6 +94,10 @@ ul, li {
 	top: -6px;
 	right: 20px;
 }
+.toggle p::before {
+	content: '';
+	border: 1px solid #000;
+}
 .toggle:focus:not(:focus-visible) {
 	outline: none;
 }
