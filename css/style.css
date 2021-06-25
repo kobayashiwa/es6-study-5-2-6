@@ -90,6 +90,9 @@ ul, li {
 	color: #000;
 	font-size: 13px;
 	font-weight: 500;
+	position: absolute;
+	top: -6px;
+	right: 20px;
 }
 .toggle:focus:not(:focus-visible) {
 	outline: none;
