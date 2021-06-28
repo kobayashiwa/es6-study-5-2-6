@@ -85,8 +85,8 @@ ul, li {
 	position: absolute;
 	width: 11px;
 	height: 11px;
-	top: 6px;
-	right: 0px;
+	top: 3px;
+	left: 32px;
 	background-image: url(../img/icon-sns.svg);
 }
 .toggle .toggle span {
