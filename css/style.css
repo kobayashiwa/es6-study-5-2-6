@@ -73,6 +73,8 @@ ul, li {
 }
 .sns {
 	position: fixed;
+	color: #000;
+	font-size: 13px;
 }
 .toggle .toggle span {
 	display: inline-block;
