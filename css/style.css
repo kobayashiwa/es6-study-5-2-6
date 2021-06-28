@@ -83,11 +83,11 @@ ul, li {
 	content: '';
 	display: block;
 	position: absolute;
-	width: 16px;
-	height: 16px;
+	width: 11px;
+	height: 11px;
 	top: 6px;
 	right: 0px;
-	background-color: #000;
+	background-image: url(../img/icon-sns.svg);
 }
 .toggle .toggle span {
 	display: inline-block;
