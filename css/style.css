@@ -75,6 +75,7 @@ ul, li {
 	position: fixed;
 	top: 43px;
 	right: 168px;
+	z-index: 3;
 }
 .sns span{
 	position: relative;
