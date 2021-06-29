@@ -223,10 +223,7 @@ ul, li {
 	width: 100%;
 	height: 100vh;
 	opacity: 0;
-	background-image: url(../img/header-menu-bg.png);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
+	background: #000;
 	z-index: 2;
 	overflow: auto;
 	-webkit-overflow-scrolling: touch;
@@ -240,6 +237,12 @@ ul, li {
 .toggle-menu nav ul li a span {
 	text-align: left;
 	font-size: 32px;
+}
+.toggle-menu nav ul li a {
+	color: #fff;
+	display: inline-block;
+	width: 100%;
+	font-size: 18px;
 }
 @media screen and (max-width: 800px) {
 }
@@ -257,12 +260,7 @@ ul, li {
 	
 	
 	
-	.toggle-menu nav ul li a {
-		color: #fff;
-		display: inline-block;
-		width: 100%;
-		font-size: 18px;
-	}
+	
 }
 /** main **/
 main {
