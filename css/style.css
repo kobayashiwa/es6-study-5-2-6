@@ -74,7 +74,7 @@ ul, li {
 .sns {
 	position: fixed;
 	top: 43px;
-	right: 160px;
+	right: 168px;
 }
 .sns span{
 	position: relative;
@@ -117,8 +117,13 @@ ul, li {
 	transition-delay: 1s;
 }
 .toggle.active .menu{
-	display: none;
-	
+	display: none;	
+}
+.toggle .close {
+	display: none;	
+}
+.toggle.active .close{
+	display: block;	
 }
 .toggle p::before {
 	content: '';
@@ -127,7 +132,7 @@ ul, li {
 	width: 1px;
 	height: 11px;
 	top: 6px;
-	right: 56px;
+	right: 64px;
 	background-color: #000;
 }
 .toggle:focus:not(:focus-visible) {
