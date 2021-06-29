@@ -73,6 +73,8 @@ ul, li {
 }
 .sns {
 	position: fixed;
+	top: 52px;
+	right: 110px;
 }
 .sns span{
 	position: relative;
