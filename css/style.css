@@ -234,6 +234,9 @@ ul, li {
 .toggle-menu.active {
 	opacity: 1;
 }
+.toggle-menu nav ul li {
+	margin: 0;
+}
 @media screen and (max-width: 800px) {
 }
 @media screen and (max-width: 600px) {
@@ -248,9 +251,7 @@ ul, li {
 	
 	
 	
-	.toggle-menu nav ul li {
-		margin: 0;
-	}
+	
 	.toggle-menu nav ul li a span {
 		text-align: left;
 		font-size: 32px;
