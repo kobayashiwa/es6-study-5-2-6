@@ -67,23 +67,14 @@
                 
                 if ($(this).hasClass('active')) {
                     $('.toggle-menu').addClass('active');
-                } else {
-                    $('.toggle-menu').removeClass('active');
-                }
-            });
-        });
-
-        $(function() {
-            $('.sns').click(function() {
-                $(this).toggleClass('active');
-                
-                if ($(this).hasClass('active')) {
                     $('.sns').addClass('active');
                 } else {
+                    $('.toggle-menu').removeClass('active');
                     $('.sns').removeClass('active');
                 }
             });
         });
+
     </script>
 
 </html>

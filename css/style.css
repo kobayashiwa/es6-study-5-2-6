@@ -120,6 +120,9 @@ ul, li {
 	right: 20px;
 	transition-delay: 1s;
 }
+.sns.active p span {
+	color: #fff;
+}
 .toggle.active .menu{
 	display: none;	
 }
