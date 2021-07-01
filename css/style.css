@@ -125,6 +125,7 @@ ul, li {
 }
 .toggle.active .close{
 	display: block;	
+	color: #fff;
 }
 .toggle p::before {
 	content: '';
