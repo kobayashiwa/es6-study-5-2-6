@@ -136,6 +136,10 @@ ul, li {
 	top: 6px;
 	right: 64px;
 	background-color: #000;
+	transition-delay: .2s;
+}
+.toggle.active p::before{
+	background-color: #fff;
 }
 .toggle:focus:not(:focus-visible) {
 	outline: none;
