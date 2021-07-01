@@ -19,7 +19,7 @@
         </header>
 
         <div class="sns">
-            <p><a href="#"><span>SNS</span></a></p>
+            <p><span>SNS</span></p>
             <ul>
                 <li><a href="#"><img src="img/ico-instagram.svg"></a></li>
                 <li><a href="#"><img src="img/ico-facebook.svg"></a></li>
@@ -69,6 +69,18 @@
                     $('.toggle-menu').addClass('active');
                 } else {
                     $('.toggle-menu').removeClass('active');
+                }
+            });
+        });
+
+        $(function() {
+            $('.sns').click(function() {
+                $(this).toggleClass('active');
+                
+                if ($(this).hasClass('active')) {
+                    $('.sns').addClass('active');
+                } else {
+                    $('.sns').removeClass('active');
                 }
             });
         });

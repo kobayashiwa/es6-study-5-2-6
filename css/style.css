@@ -93,6 +93,9 @@ ul, li {
 	left: 32px;
 	background-image: url(../img/icon-sns.svg);
 }
+.sns.active span::after{
+	background-image: url(../img/icon-sns_white.svg);
+}
 .toggle .toggle span {
 	display: inline-block;
 }
