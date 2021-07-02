@@ -96,6 +96,11 @@ ul, li {
 .sns.active span::after{
 	background-image: url(../img/icon-sns_white.svg);
 }
+.sns ul {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
 .toggle .toggle span {
 	display: inline-block;
 }
