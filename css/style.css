@@ -99,7 +99,7 @@ ul, li {
 .sns ul {
 	position: absolute;
 	top: 3px;
-	right: 0;
+	right: -8px;
 	width: 90px;
 }
 .sns ul li {
