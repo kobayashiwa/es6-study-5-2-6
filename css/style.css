@@ -102,6 +102,12 @@ ul, li {
 	right: 0;
 	width: 90px;
 }
+.sns ul li {
+	width: 22px;
+}
+.sns ul li img {
+	width: 100%;
+}
 .toggle .toggle span {
 	display: inline-block;
 }
