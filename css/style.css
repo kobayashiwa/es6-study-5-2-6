@@ -294,6 +294,14 @@ ul, li {
 	.in {
 		padding: 0 28px;
 	}
+	.head-logo {
+		top: 40px;
+	}
+	.toggle {
+		position: fixed;
+		top: 42px;
+		right: 28px;
+	}
 }
 /** main **/
 main {
