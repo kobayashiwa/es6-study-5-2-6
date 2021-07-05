@@ -290,21 +290,10 @@ ul, li {
 		padding: 16px;
 	}
 }
-@media screen and (max-width: 600px) {
-
-	
-
-
- 
-	
-	
-	
-	
-	
-	
-	
-	
-	
+@media screen and (max-width: 600px) {	
+	.in {
+		padding: 0 28px;
+	}
 }
 /** main **/
 main {
