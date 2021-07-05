@@ -225,10 +225,14 @@ ul, li {
 }
 .toggle-menu {
 	display: none;
+	position: relative;
 }
 .toggle-menu nav {
 	display: block;
-	padding: 90px 0;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translate(0, -50%);
 }
 .toggle-menu nav ul {
 	height: auto;
