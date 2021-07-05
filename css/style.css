@@ -99,8 +99,12 @@ ul, li {
 .sns ul {
 	position: absolute;
 	top: 3px;
-	right: -8px;
+	right: -20px;
 	width: 90px;
+	display: none;
+}
+.sns.active ul {
+	display: flex;
 }
 .sns ul li {
 	width: 22px;
@@ -134,7 +138,7 @@ ul, li {
 	transition-delay: 1s;
 }
 .sns.active p span {
-	color: #fff;
+	display: none;
 }
 .toggle.active .menu{
 	display: none;	
