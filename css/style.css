@@ -254,7 +254,7 @@ ul, li {
 	width: 50%;
 	height: 100vh;
 	transform: translateX(100%);
-	background: #444;
+	background: #000;
 	z-index: 2;
 	overflow: auto;
 	-webkit-overflow-scrolling: touch;
