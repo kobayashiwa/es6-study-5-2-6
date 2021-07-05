@@ -272,6 +272,9 @@ ul, li {
 	font-size: 16px;
 }
 @media screen and (max-width: 800px) {
+	.sns {
+		display: none;
+	}
 }
 @media screen and (max-width: 600px) {
 
