@@ -278,6 +278,9 @@ ul, li {
 	.toggle p::before {
 		display: none;
 	}
+	.toggle-menu {
+		width: 100%;
+	}
 }
 @media screen and (max-width: 600px) {
 
