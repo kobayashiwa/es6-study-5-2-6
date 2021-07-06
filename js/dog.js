@@ -1,18 +1,11 @@
 import Animal from "./animal";
 
-class Dog extends Animal {}
-
-
-
-
-
-
-
-class Animal {
-
-
-
+class Dog extends Animal {
+    constructor(name, age, breed){}
 }
+
+
+
 
 
 
