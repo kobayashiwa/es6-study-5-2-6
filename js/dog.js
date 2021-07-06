@@ -8,6 +8,8 @@ class Dog extends Animal {
     info() {}
 }
 
+export default Dog;
+
 
 
 
