@@ -10,5 +10,5 @@ class Animal {
         this.greet();
     }
 }
-const animal = new Animal();
+const animal = new Animal("エウレカ",2);
 animal.info();
