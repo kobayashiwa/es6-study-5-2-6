@@ -7,3 +7,5 @@ class Animal {
         console.log("こんにちは");
     }
 }
+const animal = new Animal();
+animal.greet();
