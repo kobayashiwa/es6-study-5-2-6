@@ -5,6 +5,7 @@ class Dog extends Animal {
         super(name, age);
         this.breed = breed;
     }
+    info() {}
 }
 
 

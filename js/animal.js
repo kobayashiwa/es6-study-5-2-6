@@ -12,7 +12,5 @@ class Animal {
         console.log(`年齢は${this.age}歳です`);
     }
 }
-const animal = new Animal("エウレカ",2);
-animal.info();
 
 export default Animal;
