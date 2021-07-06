@@ -6,6 +6,9 @@ class Animal {
     greet() {
         console.log("こんにちは");
     }
+    info() {
+        this.greet();
+    }
 }
 const animal = new Animal();
-animal.greet();
+animal.info();
