@@ -1,9 +1,4 @@
-import Animal from "./animal";
-
-class Dog extends Animal {
-
-
-}
+import Dog from "./dog";
 
 
 
