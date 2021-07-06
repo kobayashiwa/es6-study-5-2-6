@@ -14,3 +14,5 @@ class Animal {
 }
 const animal = new Animal("エウレカ",2);
 animal.info();
+
+export default Animal;
