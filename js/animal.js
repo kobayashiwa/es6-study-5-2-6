@@ -9,6 +9,7 @@ class Animal {
     info() {
         this.greet();
         console.log(`名前は${this.name}です`);
+        console.log(`年齢は${this.age}歳です`);
     }
 }
 const animal = new Animal("エウレカ",2);
